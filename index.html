@@ -2,6 +2,7 @@
 <html lang="es">
    <head>
        <meta charset="UTF-8">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
        <link rel="stylesheet" href="css/estilo.css"/>
        <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
@@ -11,51 +12,55 @@
        <link rel="shortcut icon" href="./css/imagenes/logo.jpeg">
        <title>Shop online tes chaussures</title>
    </head>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a>
-            <li><a href="categorias.html">Categorías</a>
-            <li><a href="ofertas.html">Ofertas</a>
-            <li><a href="carrito.html">Carrito</a>
-        </ul>
-    </nav>
+   
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="index.html">Inicio</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="categorias.html">Categorías</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="ofertas.html">Ofertas</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="carrito.html">Carrito</a>
+      </nav>
+
      <!-- <main> -->
     <body>
         <h1 class="animate__animated animate__backInDown">Tes chaussures et plus</h1>
                <!--  <section>-->
                     <h2>Productos destacados</h2>
-                    <div class="grids">
-                        <div class="prod">
+                    
+                   <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <h3>Annalise</h3> 
                                <img src="./imagenes/imagen 1.jpg" >
                            <h4>$35.000</h4>
                         </div>
-                        <div class="prod">
+                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <h3>Bonnie</h3>
                                <img src="./imagenes/imagen 2.jpg"> 
                            <h4>$30.000</h4>
                         </div>
-                        <div class="prod">
+                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <h3>Laurel</h3>
                             <img src="./imagenes/categoria 3.png"> 
                             <h4>$26.000</h4>
                         </div>
-                        <div class="prod">
+                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <h3>Michaela</h3>
                             <img src="./imagenes/categoria 4.png">
                             <h4>$24.000</h4>
                         </div>
-                        <div class="prod">
+                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <h3>Wes</h3>
                             <img src="./imagenes/imagen 5.jpg">
                             <h4>$40.000</h4>
                         </div>
-                        <div class="prod">
+                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <h3>Oli</h3>
                             <img src="./imagenes/imagen 6.jpg">
                             <h4>$25.000</h4>
                         </div>
                     </div>
+                </div> 
+
            <!-- </section>-->
             <footer>
             <div id="footer1">
@@ -63,5 +68,8 @@
                 <p> Envíos a todo el país</p>
             </footer>
         </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

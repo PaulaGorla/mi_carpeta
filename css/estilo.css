@@ -1,18 +1,17 @@
-nav {
+.nav-pills {
     /*background-color:  #ffd5f5;*/
     /*background-color: #c47283;*/
     background-color: #bdd8fe;
     background-image: linear-gradient(315deg, #bdd8fe 0%, #e186b4 74%);
     padding: 10px 0px;
-    display: block;
     text-align: center;
 }
 
-nav ul li a {
+.nav-link {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 22px;
-    padding: 100px;
+    padding: 10px;
     font-family: 'Amiri', serif;
     font-style: b;
 }
@@ -20,14 +19,15 @@ nav ul li a {
 ul {
     list-style-type: none;
 }
-li {
+/*li {
     display: inline;
-}
+}*/
 
 
 a:hover{
-    background-color: white; /*#f7efd8;*/
+    background-color: rgb(149, 31, 31); /*#f7efd8;*/
     font-weight: bolder;
+    
 }
 
 body {
@@ -43,7 +43,9 @@ h1{
     text-align: center;
     font-family: 'Source Serif Pro', serif;
     font-size: 60px;
+    font-style: bold;
     animation-duration: 3s;
+    font-weight: bold;
 }
 
 h2 {
@@ -105,8 +107,8 @@ h4 {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 20px;
     display: block; 
     margin: auto;
 
@@ -128,6 +130,9 @@ img {
     background-image: linear-gradient(315deg, #bdd8fe 0%, #e186b4 74%);
     font-style: normal;
     font-size: 15px;
+    /*position: absolute;
+    bottom: 0;*/
+    
 }
 
 .producto {
