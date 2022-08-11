@@ -50,7 +50,6 @@ h2 {
     color: #e186b4;
     text-align: center;
     padding-left: 30px;
-    /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
     font-style: unset;
     font-size: 30px;
 }
@@ -60,7 +59,7 @@ h3 {
     font-family: 'Amiri', serif;
     color: #000000;
     text-align: center;
-    background-color: white; /* #f8d0cb;*/
+    background-color: white; 
     width: 400px;
     border-radius: 5px;
     padding: 5px;
@@ -75,7 +74,7 @@ h4 {
     font-family: 'Amiri', serif;
     color: #000000;
     text-align: center;
-    background-color: white; /* #f8d0cb;*/
+    background-color: white;
     width: 400px;
     border-radius: 5px;
     padding: 5px;
@@ -231,17 +230,3 @@ img {
     }
     }
            
-    
-
-
-
-
-
-
-
-/*body {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    }
-
