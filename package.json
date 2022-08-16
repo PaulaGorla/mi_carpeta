@@ -1,0 +1,19 @@
+{
+  "name": "s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulaGorla/mi_carpeta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulaGorla/mi_carpeta/issues"
+  },
+  "homepage": "https://github.com/PaulaGorla/mi_carpeta#readme"
+}
