@@ -1,0 +1,10 @@
+@mixin titulos {
+    font-size: $tamano;
+    font-family: $fuente;
+    margin-top: $margen1;
+    padding: $padding;
+    display: $display;
+    background-color: $color;
+
+}
+
